@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">NotifyTaskList</string>
+
+    <string-array name="names">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+        <item>Fifth</item>
+        <item>Six</item>
+        <item>Seven</item>
+        <item>Eight</item>
+
+
+    </string-array>
+
+    <string-array name="details">
+
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+        <item>Fifth</item>
+        <item>Six</item>
+        <item>Seven</item>
+        <item>Eight</item>
+
+    </string-array>
+
+    <string name="longText">
+        Android is a mobile operating system developed by Google,
+        based on a modified version of the Linux kernel and other open source software
+        and designed primarily for touchscreen mobile devices such as smartphones and tablets.
+    </string>
+</resources>

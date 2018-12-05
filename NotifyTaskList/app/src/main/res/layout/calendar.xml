@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/aab"
+    tools:context=".Calendar">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Calendar"
+        android:gravity="center"
+        android:textColor="#131313"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+
+        />
+
+    <TextView
+        android:id="@+id/date_display"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:textColor="#111"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+
+
+</LinearLayout>
